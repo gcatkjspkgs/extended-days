@@ -1,5 +1,5 @@
 let targetLength = global.dayLength; // in minutes
-const pauseDivision = 20;
+const pauseDivision = global.pauseCount || 20;
 const celestialRepositionTimer = 20 * MINUTE / pauseDivision;
 const skyPauseTimer = ((targetLength - 20) * MINUTE) / pauseDivision;
 ServerEvents.loaded((event) => {
