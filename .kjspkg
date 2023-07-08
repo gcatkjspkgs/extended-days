@@ -1,0 +1,9 @@
+{
+    "author": "Jroid8",
+    "description": "Make in-game days longer. Docs: https://github.com/gcatkjspkgs/extended-days/blob/main/README.md.",
+    
+    "versions": [9],
+    "modloaders": ["forge", "fabric"],
+    "dependencies": [],
+    "incompatibilities": []
+}
